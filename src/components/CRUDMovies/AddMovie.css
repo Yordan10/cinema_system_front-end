@@ -1,0 +1,17 @@
+.addMovie-container{
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    background-color:  rgb(247, 247, 247 );
+}
+h1{
+    text-align: center;
+}
+
+#des{
+    height: 100px;
+    width: 700px;
+    overflow: hidden;
+}
+

@@ -1,0 +1,44 @@
+.manage-movies-container{
+   
+    height: auto;
+	overflow: hidden;
+	align-items: center;
+   
+	
+}
+.link-add-movie-button{
+    text-decoration: none;
+    color: white;
+}
+
+  .add-movie-button{
+      
+    margin-top: 2%;
+    width: 200px;
+    margin-left: 38%;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: #8FC1E3;
+	background:  #8FC1E3;
+	border: 2px solid white;
+	box-shadow: 5px 5px 0 white,
+		-5px -5px 0 white,
+		-5px 5px 0 white,
+		5px -5px 0 white;
+	transition: 500ms ease-in-out;
+  }
+  .add-movie-button:hover{
+    box-shadow: 20px 5px 0 #31708E, -20px -5px 0 #31708E;
+  }
+  .add-movie-button:focus{
+      outline: none;
+    }
+
+ .edit-and-delete-container{
+    height: auto;
+    width: 100%;
+    margin-top: 3%;
+    border: 1px solid black;
+}

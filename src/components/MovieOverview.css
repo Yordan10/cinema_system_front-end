@@ -1,0 +1,20 @@
+.movie-row{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1%;
+    flex-wrap: wrap;    
+    flex-direction: row;
+    
+
+   /* border: 1px solid black; */
+}
+
+.movie-row-wrapper h1{
+    text-align: center;
+    color: #31708E;
+}
+
+.movie-row-wrapper{
+    margin-top: 3%;
+}

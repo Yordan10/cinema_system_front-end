@@ -1,0 +1,12 @@
+.reservations-container{
+    margin-top: 2%;
+    width: 80%;
+    border: 1px solid black;
+    background-color: rgb(247, 247, 247 );
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.reservations-container td{
+    padding-top: 10px;  
+}

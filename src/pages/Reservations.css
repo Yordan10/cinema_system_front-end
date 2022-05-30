@@ -1,0 +1,33 @@
+.reservations-container{
+    width: 20vh;
+    padding: 40px;
+    margin-top: 30px;
+    height: auto;
+    color: darkblue;
+
+}
+
+.reservation-container{
+    width: 160vh;
+    
+   
+}
+
+
+.recent-box-headers td{
+    color: gray;
+    font-weight: bold;
+}
+
+.recent-conatiner{
+    width: 100%;
+}
+
+.recent-conatiner h2{
+    padding-bottom: 5%;
+}
+
+.recent-box-item td{
+    color: black;
+    border-bottom: 1px solid lightgray;
+}

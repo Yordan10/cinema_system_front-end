@@ -1,0 +1,98 @@
+.reservation-component{
+   
+    margin-top: 2%;
+    width: 80%;
+      height: 50vh;;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    background-color: rgb(247, 247, 247 );
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    border: 3px solid #333333;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.reservation-component h3{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: initial;
+}
+.number-seats{
+  height: 1px;
+  
+  padding-top: 10px;
+
+  font-size: 14px;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+    height: 500px; 
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 14px;
+}
+.finalize-button{
+  width: 40%;
+    background: none;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 8px;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.finalize-button:hover{
+  background-color: #687864;
+  transition: 0.5s;
+}
+   select::-ms-expand {
+  display: none;
+  }
+   
+  .custom-select:after {
+    content: '<>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 11px;
+    /*Adjust for position however you want*/
+    
+    top: 18px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #999;
+    /*left line */
+    
+  }
+  
+  .day-picker select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: 50px;
+   
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    -ms-word-break: normal;
+    word-break: normal;
+  
+  }
+
+  .final-price{
+    font-size: 18px;
+    margin-top: 3vh;
+    font-weight: bold;
+  }

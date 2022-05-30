@@ -1,0 +1,22 @@
+.edit-movie-container{
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 10%;
+    width: 80%;
+    background-color:  rgb(247, 247, 247 );
+}
+
+h5 {
+  
+    overflow: hidden;
+    font-size: 25px;
+    padding: 8px 0;
+    margin: 9px 0;
+    border-bottom: 1.5px solid black;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    margin: 0 10px;
+}
